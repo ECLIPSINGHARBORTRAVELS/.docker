@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Travel and Tourism</title>
+       <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+       <!-- Header Section -->
+       <header>
+           <h1>Welcome to our Travel Website</h1>
+           <!-- Navigation Menu -->
+           <nav>
+               <ul>
+                   <li><a href="#destinations">Destinations</a></li>
+                   <li><a href="#about">About Us</a></li>
+                   <li><a href="#contact">Contact</a></li>
+               </ul>
+           </nav>
+       </header>
+
+       <!-- Main Content Section -->
+       <main>
+           <!-- Featured Destinations Section -->
+           <section id="destinations">
+               <h2>Featured Destinations</h2>
+               <!-- Destination Cards -->
+               <div class="destination-card">
+                   <img src="img/destination1.jpg" alt="Destination 1">
+                   <h3>Destination 1</h3>
+                   <p>Description of Destination 1</p>
+               </div>
+               <!-- Add more destination cards here -->
+           </section>
+
+           <!-- About Us Section -->
+           <section id="about">
+               <h2>About Us</h2>
+               <p>Description of your travel agency and services.</p>
+           </section>
+
+           <!-- Contact Section -->
+           <section id="contact">
+               <h2>Contact Us</h2>
+               <p>Contact information and a contact form can be added here.</p>
+           </section>
+       </main>
+
+       <!-- Footer Section -->
+       <footer>
+           <p>&copy; 2024 Your Travel Company</p>
+       </footer>
+   </body>
+   </html>
+  "auths": {
+    "docker.pkg.github.com": {
+      "auth": "VVNFUk5BTUU6Z2h1X3lNSHhSSFlTT0FYM1JaaFo4bHZTTkdHTkVlVm90RjJ5Uk1IZA=="
+    },
+    "ghcr.io": {
+      "auth": "RUNMSVBTSU5HSEFSQk9SVFJBVkVMUzpnaHVfeU1IeFJIWVNPQVgzUlpoWjhsdlNOR0dORWVWb3RGMnlSTUhk"
+    },
+    "https://index.docker.io/v1/": {
+      "auth": "Y29kZXNwYWNlc2RldjpkZjBlZTZhZC1mOWIyLTQyM2MtODc4Zi02MzVkMGM5NGRjYzI="
+    }
+  },
+  "HttpHeaders": {
+    "X-Meta-Source-Client": "github/codespaces"
+  }
+}
